@@ -25,8 +25,6 @@ var myFullpage = new fullpage('#fullpage', {
             document.getElementsByClassName("text-type-header")[0].style.color = "#ffffff";
             document.getElementsByClassName("text-type-header")[1].style.color = "#ffffff";
             document.getElementsByClassName("header-phone")[0].style.color = "#ffffff!important";
-
-            $("#htl").addClass("header-transition-left");
         }
         if (destination.anchor === "secondPage" || destination.anchor === "thirdPage" || destination.anchor === "fourthPage" || destination.anchor === "lastPage") {
             document.getElementById('header').style.color = "#3a3a3a";

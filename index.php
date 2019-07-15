@@ -23,19 +23,19 @@
     <script src="js/jquery.suggestions.min.js"></script>
 
     <!-- Yandex.Metrika counter -->
-      <script type="text/javascript" >
-         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-         ym(54368398, "init", {
-           clickmap:true,
-           trackLinks:true,
-           accurateTrackBounce:true,
-           webvisor:true
-         });
-      </script>
-      <noscript><div><img src="https://mc.yandex.ru/watch/54368398" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        ym(54368398, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/54368398" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
     <meta name="yandex-verification" content="a7b1ecba85f0b81e" />
@@ -113,12 +113,12 @@
 </header>
 <div id="fullpage">
     <div class="section active" id="section0">
-        <div id="htl" class="container-fluid" style="margin-left: -90rem;">
-            <form method="post" action="success.php" name="form_1" class="header-position-body">
+        <div id="htl" class="container-fluid">
+            <form method="post" action="/success" name="form_1" class="header-position-body">
                 <div class="row">
                     <div class="col-9">
                         <span class="main-text">
-                            Грузоперевозки
+                            Доставка грузов
                             <br>
                             по всем городам России и СНГ
                             <br>
@@ -240,7 +240,7 @@
                 <h1 class="counter">
                     <span id="counter__current">1</span>/9
                 </h1>
-                <form action="success.php" name="form_2" method="post">
+                <form action="/success" name="form_2" method="post">
                     <div id="slide_1" class="quiz-slide">
                         <div class="quiz-slide__content">
                             <h5 class="mb-4" style="font-size: 1rem; font-weight: 600;">Выберите вид автотранспорта для
@@ -698,7 +698,7 @@
                     </div>
                     <div class="col-6 grey">
                         <h1>Готовы начать?</h1>
-                        <form action="success.php" name="form_3" id="footer_form" method="post">
+                        <form action="/success" name="form_3" id="footer_form" method="post">
                             <input id="name" class="main-inputs  icon-input-person" placeholder="Ваше имя"
                                    type="text" name="name"
                                    value="" required/>
@@ -712,7 +712,7 @@
                 <div class="row footer">
                     <div class="col-12 d-flex">
                         <p>Все права защищены. © Allionlogistic 2019</p>
-                        <a href="politikaconf.pdf" target="_blank">Политика конфиденциальности</a>
+                        <a href="/policy" target="_blank">Политика конфиденциальности</a>
                         <a href="https://www.instagram.com/allionlogistic/" target="_blank">
                             <svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg">
                                 <path d="m373.41 0h-234.81c-76.422 0-138.59 62.172-138.59 138.59v234.82c0 76.418 62.172 138.59 138.59 138.59h234.82c76.418 0 138.59-62.172 138.59-138.59v-234.82c0-76.422-62.172-138.59-138.59-138.59zm-117.41 396c-77.195 0-140-62.801-140-140s62.801-140 140-140 140 62.801 140 140-62.801 140-140 140zm143.34-246.98c-22.812 0-41.367-18.555-41.367-41.367s18.555-41.371 41.367-41.371 41.371 18.559 41.371 41.371-18.559 41.367-41.371 41.367z"/>
@@ -741,7 +741,7 @@
                       d="M43.8156 42.4687L30.3469 29L43.8156 15.5313L42.4687 14.1844L29 27.6531L15.5313 14.1844L14.1844 15.5313L27.6531 29L14.1844 42.4687L15.5313 43.8156L29 30.3469L42.4687 43.8156L43.8156 42.4687Z"/>
             </svg>
         </div>
-        <form action="success.php" class="container_form" name="form_4" method="post">
+        <form action="/success" class="container_form" name="form_4" method="post">
             <div class="icon"><img src="img/circlephone.svg" alt=""></div>
             <h1>Остались вопросы?</h1>
             <p>Оставьте заявку, и наши менеджеры

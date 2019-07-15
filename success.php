@@ -114,7 +114,7 @@ if (isset($_POST["address"]) || isset($_POST["location_from"]) || isset($_POST["
             <h4>Заявка принята, и наши менеджеры
                 свяжутся с Вами в ближайшее время. </h4>
             <p>Вы будете автоматически перенаправлены обратно на сайт через <span id="return_time">5 секунд…</span></p>
-            <a href="index.html">Вернутся прямо сейчас</a>
+            <a href="/">Вернутся прямо сейчас</a>
         </div>
     </div>
 </section>
@@ -140,8 +140,7 @@ if (isset($_POST["address"]) || isset($_POST["location_from"]) || isset($_POST["
         $("#return_time").text(time + " секунд...");
     }, 4000);
     setTimeout(function () {
-        console.log("bye");
-        location.href = "index.html";
+        location.href = "/";
     }, 5000);
 </script>
 </body>

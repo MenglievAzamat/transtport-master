@@ -1,38 +1,41 @@
 <?php
-if (isset($_POST["address"]) || isset($_POST["location_from"]) || isset($_POST["name"]) || isset($_POST["name-modal"])) {
-    $to = "galeev.group@gmail.com";
+if (isset($_POST["address"]) || isset($_POST["address-m"]) || isset($_POST["location_from"]) || isset($_POST["name"]) || isset($_POST["name-modal"])) {
+    $to = "hello@allionlogistic.com";
     $subject = "Новая заявка :: AllionLogistic";
 
     if (isset($_POST["address"])) {
         $message = "Из: ".$_POST["address"]."\nВ: ".$_POST["address2"]."\nМасса груза: ".$_POST["mass"]."\nКонтакты: ".$_POST["contact"];
     } else {
-        if (isset($_POST["location_from"])) {
-            $message =
-                "Вид транспорта: ".$_POST["vehicle_type"].
-                "\t || Температурный режим: ".$_POST["q1-bool"].
-                "\nВид груза: ".$_POST["material_type"].
-                "\nТип упаковки: ".$_POST["pack_type"].
-                "\nТип погрузки: ".$_POST["carriage_type"].
-                "\nИз: ".$_POST["location_from"].
-                "\t || Больше одной точки: ".$_POST["q5-bool"].
-                "\nВ: ".$_POST["location_to"].
-                "\t || Больше одной точки: ".$_POST["q6-bool"].
-                "\nСрочность: ".$_POST["delivery_time"].
-                "\nТип организации: ".$_POST["company_type"].
-                "\nКонтакты: ".$_POST["contact_phone"];
+        if (isset($_POST["address-m"])) {
+            $message = "Из: ".$_POST["address-m"]."\nВ: ".$_POST["address2-m"]."\nМасса груза: ".$_POST["mass-m"]."\nКонтакты: ".$_POST["contact-m"];
         } else {
-            if (isset($_POST["name"])) {
-                $message = "\nИмя: ".$_POST["name"].
-                    "\nКонтакты: ".$_POST["phone-no"];
+            if (isset($_POST["location_from"])) {
+                $message =
+                    "Вид транспорта: ".$_POST["vehicle_type"].
+                    "\t || Температурный режим: ".$_POST["q1-bool"].
+                    "\nВид груза: ".$_POST["material_type"].
+                    "\nТип упаковки: ".$_POST["pack_type"].
+                    "\nТип погрузки: ".$_POST["carriage_type"].
+                    "\nИз: ".$_POST["location_from"].
+                    "\t || Больше одной точки: ".$_POST["q5-bool"].
+                    "\nВ: ".$_POST["location_to"].
+                    "\t || Больше одной точки: ".$_POST["q6-bool"].
+                    "\nСрочность: ".$_POST["delivery_time"].
+                    "\nТип организации: ".$_POST["company_type"].
+                    "\nКонтакты: ".$_POST["contact_phone"];
             } else {
-                if (isset($_POST["name-modal"])) {
-                    $message = "\nИмя: ".$_POST["name-modal"].
-                        "\nКонтакты: ".$_POST["phone-no-modal"];
+                if (isset($_POST["name"])) {
+                    $message = "\nИмя: ".$_POST["name"].
+                        "\nКонтакты: ".$_POST["phone-no"];
+                } else {
+                    if (isset($_POST["name-modal"])) {
+                        $message = "\nИмя: ".$_POST["name-modal"].
+                            "\nКонтакты: ".$_POST["phone-no-modal"];
+                    }
                 }
             }
         }
     }
-
     mail($to, $subject, $message);
 }
 ?>
@@ -48,28 +51,36 @@ if (isset($_POST["address"]) || isset($_POST["location_from"]) || isset($_POST["
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.min.css">
-    <link rel="stylesheet" href="css/ttf/stylesheet.css">
+    <link rel="stylesheet" href="css/main.mobile.min.css">
+    <link rel="stylesheet" href="css/ttf/stylesheet.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
     <!-- Yandex.Metrika counter -->
-      <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-          m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-          (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-           ym(54368398, "init", {
-             clickmap:true,
-             trackLinks:true,
-             accurateTrackBounce:true,
-             webvisor:true
-           });
-      </script>
-      <noscript><div><img src="https://mc.yandex.ru/watch/54368398" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        ym(54368398, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/54368398" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 
-    <meta name="yandex-verification" content="a7b1ecba85f0b81e" />
-    <meta name="google-site-verification" content="WWvmfzYt-kejCBUSbiFV21bOuJ-7B9yExh-m_Uk-KPk" />
+    <meta name="yandex-verification" content="a7b1ecba85f0b81e"/>
+    <meta name="google-site-verification" content="WWvmfzYt-kejCBUSbiFV21bOuJ-7B9yExh-m_Uk-KPk"/>
 </head>
 
 <body>

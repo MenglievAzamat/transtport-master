@@ -87,7 +87,7 @@
 
 .s2b-scale {
     /*transform: scale(0)!important;*/
-    transform: rotateX(90deg)!important;
+    transform: rotateX(90deg);
 
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;

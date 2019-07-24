@@ -1,11 +1,10 @@
 var myFullpage = new fullpage('#fullpage', {
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     sectionsColor: ['#f2f2f2', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-    resize: false,
+    resize: true,
     animateAnchor: true,
     autoScrolling: true,
-    responsive: 900,
-    fitSection: false,
+    responsiveWidth: 576,
     menu: '#myMenu',
     navigationPosition: 'right',
     continuousVertical: false,
@@ -25,6 +24,9 @@ var myFullpage = new fullpage('#fullpage', {
             document.getElementsByClassName("text-type-header")[0].style.color = "#ffffff";
             document.getElementsByClassName("text-type-header")[1].style.color = "#ffffff";
             document.getElementsByClassName("header-phone")[0].style.color = "#ffffff!important";
+            document.getElementById("mobile-contact").style.color = "#ffffff";
+            document.getElementById("mobile-contact-svg").style.fill = "#ffffff";
+            document.getElementById("mobile").style.background = "transparent";
         }
         if (destination.anchor === "secondPage" || destination.anchor === "thirdPage" || destination.anchor === "fourthPage" || destination.anchor === "lastPage") {
             document.getElementById('header').style.color = "#3a3a3a";
@@ -40,20 +42,25 @@ var myFullpage = new fullpage('#fullpage', {
             document.getElementsByClassName("text-type-header")[0].style.color = "#3a3a3a";
             document.getElementsByClassName("text-type-header")[1].style.color = "#3a3a3a";
             document.getElementsByClassName("header-phone")[0].style.color = "#3a3a3a";
+            document.getElementById("mobile-contact").style.color = "#3a3a3a";
+            document.getElementById("mobile-contact-svg").style.fill = "#3a3a3a";
+            document.getElementById("mobile").style.background = "rgba(255, 255, 255, .6)";
 
-            if (destination.anchor === "secondPage") {
-                $("#section1").find(".header-text").addClass("header-transition-left");
-                $("#section1").find(".rectangle-call").addClass("header-transition-left");
-                $("#section1").find(".s2b-scale").addClass("s2b-transition-scale");
-            }
+            if (window.outerWidth > 575) {
+                if (destination.anchor === "secondPage") {
+                    $("#section1").find(".header-text").addClass("header-transition-left");
+                    $("#section1").find(".rectangle-call").addClass("header-transition-left");
+                    $("#section1").find(".s2b-scale").addClass("s2b-transition-scale");
+                }
 
-            if (destination.anchor === "thirdPage") {
-                $("#s2ht").addClass("fade-out");
-                $("#s2q").addClass("fade-out");
-            }
+                if (destination.anchor === "thirdPage") {
+                    $("#s2ht").addClass("fade-out");
+                    $("#s2q").addClass("fade-out");
+                }
 
-            if (destination.anchor === "fourthPage") {
-                $("#section3").addClass("fade-out-2");
+                if (destination.anchor === "fourthPage") {
+                    $("#section3").addClass("fade-out-2");
+                }
             }
         }
     }

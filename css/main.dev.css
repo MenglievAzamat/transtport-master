@@ -108,6 +108,13 @@ a:active {
     text-decoration: none;
 }
 
+.row {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+}
+
 .modal_trigger {
     cursor: pointer;
 }
@@ -281,7 +288,14 @@ a:active {
 .main-header-info {
     height: 3.75rem;
     display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
 }
 
 .text-type-header {
@@ -616,6 +630,9 @@ a:active {
 
 .header-text {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     margin-bottom: 1.25rem;
     margin-left: -15rem!important;
 }
@@ -726,7 +743,15 @@ a:active {
 
 #section2 .quiz .quiz-slide {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
     justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+
     margin-bottom: 2.1875rem;
 }
 
@@ -804,7 +829,12 @@ a:active {
     height: 14.5rem;
     border: 1px solid var(--grey);
     padding: 2.5rem;
+
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
     transition: .25s;
 }
 
@@ -861,6 +891,10 @@ a:active {
 
 #section4 .contacts .cell {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
     margin-top: 4.5rem;
 }
 

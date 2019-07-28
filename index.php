@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="nav_info">
-            <p>
+            <p style="display: none;">
                 Режим работы: Ежедневно
                 <br>
                 с 08:00 до 21:00
@@ -126,13 +126,13 @@
                 <img src="img/logo.svg" class="main_logo" alt="">
             </div>
             <div class="col-sm-9 main-header-info align-items-center">
-                <div class="my-auto">
+                <div class="my-auto" style="display: none;">
                     <span class="align-middle text-type-header">Режим работы: Ежедневно с 08:00 до 21:00</span>
                 </div>
-                <div class="my-auto">
+                <div class="my-auto mr-5">
                     <span class="align-middle text-type-header">hello@allionlogistic.com</span>
                 </div>
-                <div class="my-auto" style="margin-left:0; margin-right: 2rem;margin-top: 1.26rem!important;">
+                <div class="my-auto" style="margin-left:0; margin-right: 3rem;margin-top: 1.26rem!important;">
                     <svg id="icon" style="width: 14px; height: 14px; fill: white"
                          enable-background="new 0 0 25.625 25.625" version="1.1"
                          viewBox="0 0 25.625 25.625" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">

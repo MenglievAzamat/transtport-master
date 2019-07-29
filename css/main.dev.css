@@ -336,7 +336,7 @@ a:active {
     height: 100%;
     z-index: 0.1;
     opacity: 0.4;
-    background-image: url('../img/bg.webp'), url("../img/safari/bg.png");
+    background-image: url('../img/bg.webp'), url("../img/safari/bg.jp2");
     background-repeat: no-repeat;
     background-position: 100% 100%;
     -ms-background-size: cover;
@@ -376,36 +376,36 @@ a:active {
 }
 
 .row:nth-child(2) .col-12:first-of-type .background-1:before {
-    background-image: url('../img/block_1-1.webp'), url("../img/safari/block_1-1.png");
+    background-image: url('../img/block_1-1.webp'), url("../img/safari/block_1-1.jp2");
 }
 
 .row:nth-child(2) .col-12:nth-of-type(2) .background-1:before {
-    background-image: url('../img/block_1-2.webp'), url("../img/safari/block_1-2.png");
+    background-image: url('../img/block_1-2.webp'), url("../img/safari/block_1-2.jp2");
 }
 
 .row:nth-child(2) .col-12:nth-of-type(3) .background-1:before {
-    background-image: url('../img/block_1-3.webp'), url("../img/safari/block_1-3.png");
+    background-image: url('../img/block_1-3.webp'), url("../img/safari/block_1-3.jp2");
 }
 
 .row:nth-child(2) .col-12:nth-of-type(4) .background-1:before {
-    background-image: url('../img/block_1-4.webp'), url("../img/safari/block_1-4.png");
+    background-image: url('../img/block_1-4.webp'), url("../img/safari/block_1-4.jp2");
 }
 
 .row:nth-child(3) .col-12:nth-of-type(1) .background-1:before {
-    background-image: url('../img/block_2-1.webp'), url("../img/safari/block_2-1.png");
+    background-image: url('../img/block_2-1.webp'), url("../img/safari/block_2-1.jp2");
     background-position-x: -1rem;
 }
 
 .row:nth-child(3) .col-12:nth-of-type(2) .background-1:before {
-    background-image: url('../img/block_2-2.webp'), url("../img/safari/block_2-2.png");
+    background-image: url('../img/block_2-2.webp'), url("../img/safari/block_2-2.jp2");
 }
 
 .row:nth-child(3) .col-12:nth-of-type(3) .background-1:before {
-    background-image: url('../img/block_2-3.webp'), url("../img/safari/block_2-3.png");
+    background-image: url('../img/block_2-3.webp'), url("../img/safari/block_2-3.jp2");
 }
 
 .row:nth-child(3) .col-12:nth-of-type(4) .background-1:before {
-    background-image: url('../img/block_2-4.webp'), url("../img/safari/block_2-4.png");
+    background-image: url('../img/block_2-4.webp'), url("../img/safari/block_2-4.jp2");
 }
 
 .header-phone {
@@ -758,7 +758,7 @@ a:active {
 #section2 .quiz .quiz-slide__image {
     width: 15.25rem;
     height: 8.5652rem;
-    background-image: url("../img/q1-1.webp"), url("../img/safari/q1-1.png");
+    background-image: url("../img/q1-1.webp"), url("../img/safari/q1-1.jp2");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

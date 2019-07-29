@@ -239,7 +239,7 @@
             <form method="post" action="/success" name="form-m" class="header-position-body mobile-form">
                 <div class="mobile-logo">
                     <picture>
-                        <source srcset="img/safari/mobile-logo.png">
+                        <source srcset="img/safari/mobile-logo.jp2">
                         <img src="img/mobile-logo.webp" alt="">
                     </picture>
                 </div>

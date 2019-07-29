@@ -40,7 +40,7 @@ $(".cross").on("click", function () {
 
 $(".radio_wrap").on("click", function () {
     $("#" + $(this).attr("for")).click();
-    $(".quiz-slide__image").css("background-image", "url('img/" + $(this).attr("for") + ".webp'), url('img/" + $(this).attr("for") + ".png')");
+    $(".quiz-slide__image").css("background-image", "url('img/" + $(this).attr("for") + ".webp'), url('img/" + $(this).attr("for") + ".jp2')");
     $("#next").removeAttr("disabled");
 });
 

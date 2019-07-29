@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38277e54-2831-4f03-80a0-6c9495a47bca" name="Default Changelist" comment="24.07.19 Fixes">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/transtport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.dev.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.min.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="929" column="10" selection-start-line="929" selection-start-column="10" selection-end-line="929" selection-end-column="10" />
+              <folding>
+                <marker date="1564403333547" expanded="true" signature="54587:56350" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/resize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="39" lean-forward="true" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/resize.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2290" selection-start-line="3" selection-start-column="2290" selection-end-line="3" selection-end-column="2290" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.dev.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="330" column="19" lean-forward="true" selection-end-line="1175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/transitions.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18147" selection-start-column="18147" selection-end-column="18147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.mobile.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6879" selection-start-column="6879" selection-end-column="6879" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>s</find>
+      <find>location_from</find>
+      <find>header-text</find>
+      <find>background-1</find>
+      <find>s2q</find>
+      <find>content_ser</find>
+      <find>content-service</find>
+      <find>transitions</find>
+      <find>footer</find>
+      <find>btn-</find>
+      <find>footer p</find>
+      <find>input</find>
+      <find>s2b-scale</find>
+      <find>nav_info</find>
+      <find>nav_cross</find>
+      <find>payment_</find>
+      <find>payment_in</find>
+      <find>mbl</find>
+      <find>Достав</find>
+      <find>nav_header</find>
+      <find>my</find>
+      <find>main-header</find>
+      <find>flex</find>
+      <find>mobile-logo</find>
+      <find>resize</find>
+      <find>img</find>
+      <find>img/mobile-logo.webp</find>
+      <find>&lt;img</find>
+      <find>.webp</find>
+      <find>webp</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.webp</replace>
+      <replace>action=&quot;success&quot;</replace>
+      <replace>action=&quot;/&quot;</replace>
+      <replace>action=&quot;/success&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/ttf/stylesheet.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/css/jquiery.min.js" />
+        <option value="$PROJECT_DIR$/js/jquery.suggestions.min.js" />
+        <option value="$PROJECT_DIR$/js/suggestions.min.js" />
+        <option value="$PROJECT_DIR$/img/icon.svg" />
+        <option value="$PROJECT_DIR$/img/icon_sale.svg" />
+        <option value="$PROJECT_DIR$/img/icon_money.svg" />
+        <option value="$PROJECT_DIR$/img/icon_card.svg" />
+        <option value="$PROJECT_DIR$/img/icon_phone.svg" />
+        <option value="$PROJECT_DIR$/img/icon_folder.svg" />
+        <option value="$PROJECT_DIR$/img/person.svg" />
+        <option value="$PROJECT_DIR$/img/mail.svg" />
+        <option value="$PROJECT_DIR$/js/resizer.js" />
+        <option value="$PROJECT_DIR$/img/circletick.svg" />
+        <option value="$PROJECT_DIR$/success.html" />
+        <option value="$PROJECT_DIR$/img/circlephone.svg" />
+        <option value="$PROJECT_DIR$/img/cross.svg" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/transition.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/request.php" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/js/transitions.js" />
+        <option value="$PROJECT_DIR$/js/transitions.min.js" />
+        <option value="$USER_HOME$/Desktop/sitemap.xml" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/masks.js" />
+        <option value="$PROJECT_DIR$/css/transitions.css" />
+        <option value="$PROJECT_DIR$/js/slider.js" />
+        <option value="$PROJECT_DIR$/css/transitions.min.css" />
+        <option value="$PROJECT_DIR$/js/masks.min.js" />
+        <option value="$PROJECT_DIR$/js/slider.min.js" />
+        <option value="$PROJECT_DIR$/css/ttf/stylesheet.min.css" />
+        <option value="$PROJECT_DIR$/success.php" />
+        <option value="$PROJECT_DIR$/css/main.mobile.css" />
+        <option value="$PROJECT_DIR$/css/main.mobile.min.css" />
+        <option value="$PROJECT_DIR$/css/main.dev.css" />
+        <option value="$PROJECT_DIR$/js/resize.js" />
+        <option value="$PROJECT_DIR$/js/resize.min.js" />
+        <option value="$PROJECT_DIR$/css/main.min.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="237" />
+    <option name="y" value="-18" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="main.mobile.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="masks.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="resize.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="slider.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="transitions.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Новая папка\OSPanel\domains\localhost\transtport-master\img" />
+      <recent name="E:\Новая папка\OSPanel\domains\localhost\transtport-master" />
+      <recent name="C:\Users\Azamat\Desktop\transtport-master\js" />
+      <recent name="C:\Users\Azamat\Desktop\transtport-master\img" />
+      <recent name="C:\Users\Azamat\Desktop\transtport-master\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Azamat\Desktop\transtport-master\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38277e54-2831-4f03-80a0-6c9495a47bca" name="Default Changelist" comment="" />
+      <created>1561357944910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561357944910</updated>
+      <workItem from="1561357946404" duration="4204000" />
+      <workItem from="1561369101811" duration="4470000" />
+      <workItem from="1561385981487" duration="3772000" />
+      <workItem from="1561460305883" duration="5436000" />
+      <workItem from="1561649804773" duration="728000" />
+      <workItem from="1561727951484" duration="1174000" />
+      <workItem from="1561744040640" duration="12673000" />
+      <workItem from="1561833008643" duration="1628000" />
+      <workItem from="1561913881866" duration="22261000" />
+      <workItem from="1562185716905" duration="1556000" />
+      <workItem from="1562266952509" duration="16878000" />
+      <workItem from="1562402876432" duration="11059000" />
+      <workItem from="1562524909452" duration="2803000" />
+      <workItem from="1562654547807" duration="3113000" />
+      <workItem from="1562831060094" duration="4784000" />
+      <workItem from="1562954379694" duration="1442000" />
+      <workItem from="1563039291068" duration="3463000" />
+      <workItem from="1563043812620" duration="1316000" />
+      <workItem from="1563110566641" duration="1459000" />
+      <workItem from="1563188990462" duration="4515000" />
+      <workItem from="1563533392244" duration="10479000" />
+      <workItem from="1563558557561" duration="2497000" />
+      <workItem from="1563690692433" duration="15229000" />
+      <workItem from="1563905465168" duration="2176000" />
+      <workItem from="1563946875517" duration="99000" />
+      <workItem from="1563947170683" duration="303000" />
+      <workItem from="1563978887511" duration="662000" />
+      <workItem from="1564072817500" duration="363000" />
+      <workItem from="1564312895278" duration="3307000" />
+      <workItem from="1564380679880" duration="1445000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1563110724217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563110724217</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixes">
+      <created>1563193317210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563193317210</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixes">
+      <created>1563193553509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563193553510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="24.07.19 Fixes">
+      <created>1563978929011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563978929011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="28.07.19 Fixes">
+      <created>1564313964716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564313964716</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145294000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4967213" weight="0.20476706" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5032787" side_tool="true" weight="0.20498301" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3295583" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="24.07.19 Fixes" />
+    <MESSAGE value="28.07.19 Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.07.19 Fixes" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#25768#26002#2" expanded="true" />
+            <element signature="e#26806#26959#1" expanded="true" />
+            <element signature="e#26999#27233#1" expanded="true" />
+            <element signature="e#30239#30515#2" expanded="true" />
+            <element signature="e#31347#31500#1" expanded="true" />
+            <element signature="e#31540#31816#1" expanded="true" />
+            <element signature="e#61072#61259#2" expanded="true" />
+            <element signature="e#61488#61624#2" expanded="true" />
+            <element signature="e#62027#62160#2" expanded="true" />
+            <element signature="e#63642#63795#1" expanded="true" />
+            <element signature="e#75788#76018#2" expanded="true" />
+            <element signature="e#76885#77121#2" expanded="true" />
+            <element signature="e#106714#106891#2" expanded="true" />
+            <element signature="e#106937#107114#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="88059" selection-start-line="1" selection-start-column="88059" selection-end-line="1" selection-end-column="88059" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.suggestions.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26132" selection-start-line="1" selection-start-column="26132" selection-end-line="1" selection-end-column="26132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_nds.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_sale.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_money.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_card.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_phone.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_folder.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg.png" />
+    <entry file="file://$PROJECT_DIR$/img/pin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/phone.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/person.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/mail.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resizer.js" />
+    <entry file="file://$PROJECT_DIR$/img/instagram.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/vk.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/circletick.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/circlephone.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cross.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/block_1-1.png" />
+    <entry file="file://$PROJECT_DIR$/css/suggestions.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#461#6272#1" expanded="true" />
+            <element signature="e#6423#6718#1" expanded="true" />
+            <element signature="e#8130#8425#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fullpage.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12364.4343/allionlogistic.com.xml" />
+    <entry file="file://$USER_HOME$/Desktop/sitemap.xml" />
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transitions.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="121" selection-start-column="121" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/phone-1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/transitions.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2944" selection-start-column="2944" selection-end-column="2944" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/masks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/masks.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="386" selection-start-column="386" selection-end-column="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="54" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ttf/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="42" lean-forward="true" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ttf/stylesheet.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2765" selection-start-column="2765" selection-end-column="2765" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/transitions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.mobile.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6879" selection-start-column="6879" selection-end-column="6879" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="39" lean-forward="true" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resize.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2290" selection-start-line="3" selection-start-column="2290" selection-end-line="3" selection-end-column="2290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.dev.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="330" column="19" lean-forward="true" selection-end-line="1175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18147" selection-start-column="18147" selection-end-column="18147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="929" column="10" selection-start-line="929" selection-start-column="10" selection-end-line="929" selection-end-column="10" />
+          <folding>
+            <marker date="1564403333547" expanded="true" signature="54587:56350" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

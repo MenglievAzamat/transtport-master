@@ -238,7 +238,10 @@
             </form>
             <form method="post" action="/success" name="form-m" class="header-position-body mobile-form">
                 <div class="mobile-logo">
-                    <img src="img/mobile-logo.webp" alt="">
+                    <picture>
+                        <source srcset="img/safari/mobile-logo.png">
+                        <img src="img/mobile-logo.webp" alt="">
+                    </picture>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -900,14 +903,38 @@
             console.log(suggestion);
         }
     });
-    // $("#q5_address").suggestions({
-    //     token: "4f3bf5d3825a4ce825967c64e91d8f8f4f891d1d",
-    //     type: "ADDRESS",
-    //     /* Вызывается, когда пользователь выбирает одну из подсказок */
-    //     onSelect: function (suggestion) {
-    //         console.log(suggestion);
-    //     }
-    // });
+    $("#address-m").suggestions({
+        token: "4f3bf5d3825a4ce825967c64e91d8f8f4f891d1d",
+        type: "ADDRESS",
+        /* Вызывается, когда пользователь выбирает одну из подсказок */
+        onSelect: function (suggestion) {
+            console.log(suggestion);
+        }
+    });
+    $("#address2-m").suggestions({
+        token: "4f3bf5d3825a4ce825967c64e91d8f8f4f891d1d",
+        type: "ADDRESS",
+        /* Вызывается, когда пользователь выбирает одну из подсказок */
+        onSelect: function (suggestion) {
+            console.log(suggestion);
+        }
+    });
+    $("#q5_address").suggestions({
+        token: "4f3bf5d3825a4ce825967c64e91d8f8f4f891d1d",
+        type: "ADDRESS",
+        /* Вызывается, когда пользователь выбирает одну из подсказок */
+        onSelect: function (suggestion) {
+            console.log(suggestion);
+        }
+    });
+    $("#q6_address").suggestions({
+        token: "4f3bf5d3825a4ce825967c64e91d8f8f4f891d1d",
+        type: "ADDRESS",
+        /* Вызывается, когда пользователь выбирает одну из подсказок */
+        onSelect: function (suggestion) {
+            console.log(suggestion);
+        }
+    });
 </script>
 </body>
 

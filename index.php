@@ -238,10 +238,7 @@
             </form>
             <form method="post" action="/success" name="form-m" class="header-position-body mobile-form">
                 <div class="mobile-logo">
-                    <picture>
-                        <source srcset="img/safari/mobile-logo.jp2">
-                        <img src="img/mobile-logo.webp" alt="">
-                    </picture>
+                    <img src="img/mobile-logo.webp" alt="">
                 </div>
                 <div class="row">
                     <div class="col-12">

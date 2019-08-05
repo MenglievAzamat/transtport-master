@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38277e54-2831-4f03-80a0-6c9495a47bca" name="Default Changelist" comment="24.07.19 Fixes">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/transtport.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.dev.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+    <list default="true" id="38277e54-2831-4f03-80a0-6c9495a47bca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,14 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="929" column="10" selection-start-line="929" selection-start-column="10" selection-end-line="929" selection-end-column="10" />
+            <state relative-caret-position="4080">
+              <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
               <folding>
-                <marker date="1564403333547" expanded="true" signature="54587:56350" ph="..." />
+                <marker date="1564985723591" expanded="true" signature="54453:56216" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="39" lean-forward="true" selection-end-line="136" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -59,17 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.dev.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="330" column="19" lean-forward="true" selection-end-line="1175" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/transitions.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="6409">
+              <caret line="377" column="39" selection-end-line="1175" />
             </state>
           </provider>
         </entry>
@@ -84,37 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.mobile.css">
+        <entry file="file://$PROJECT_DIR$/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.mobile.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6879" selection-start-column="6879" selection-end-column="6879" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/success.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="27" column="54" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -130,12 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s</find>
-      <find>location_from</find>
-      <find>header-text</find>
-      <find>background-1</find>
-      <find>s2q</find>
-      <find>content_ser</find>
       <find>content-service</find>
       <find>transitions</find>
       <find>footer</find>
@@ -158,14 +116,21 @@
       <find>img</find>
       <find>img/mobile-logo.webp</find>
       <find>&lt;img</find>
-      <find>.webp</find>
       <find>webp</find>
+      <find>transport</find>
+      <find>transpor</find>
+      <find>trans</find>
+      <find>.webp</find>
+      <find>.png</find>
+      <find>png</find>
+      <find>picture</find>
     </findStrings>
     <replaceStrings>
       <replace>.webp</replace>
       <replace>action=&quot;success&quot;</replace>
       <replace>action=&quot;/&quot;</replace>
       <replace>action=&quot;/success&quot;</replace>
+      <replace>.jp2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -197,7 +162,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/request.php" />
         <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/js/transitions.js" />
         <option value="$PROJECT_DIR$/js/transitions.min.js" />
         <option value="$USER_HOME$/Desktop/sitemap.xml" />
@@ -218,6 +182,7 @@
         <option value="$PROJECT_DIR$/js/resize.min.js" />
         <option value="$PROJECT_DIR$/css/main.min.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -255,6 +220,12 @@
               <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transtport-master" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="safari" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="transtport-master" type="b2602c69:ProjectViewProjectNode" />
@@ -371,7 +342,9 @@
       <workItem from="1563978887511" duration="662000" />
       <workItem from="1564072817500" duration="363000" />
       <workItem from="1564312895278" duration="3307000" />
-      <workItem from="1564380679880" duration="1445000" />
+      <workItem from="1564380679880" duration="3441000" />
+      <workItem from="1564985438564" duration="836000" />
+      <workItem from="1565006434016" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1563110724217</created>
@@ -408,17 +381,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564313964716</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="29.07.19 Fixes">
+      <created>1564403453586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564403453586</updated>
+    </task>
+    <task id="LOCAL-00007" summary="29.07.19 Fixes">
+      <created>1564425039504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564425039504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145294000" />
+    <option name="totallyTimeSpent" value="148581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,7 +439,8 @@
     <MESSAGE value="Fixes" />
     <MESSAGE value="24.07.19 Fixes" />
     <MESSAGE value="28.07.19 Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.07.19 Fixes" />
+    <MESSAGE value="29.07.19 Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.07.19 Fixes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -561,13 +549,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/request.php" />
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12364.4343/allionlogistic.com.xml" />
     <entry file="file://$USER_HOME$/Desktop/sitemap.xml" />
@@ -616,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="386" selection-start-column="386" selection-end-column="386" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="54" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -677,15 +651,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="281">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+          <folding>
+            <marker date="1564985723591" expanded="true" signature="54453:56216" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/resize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" lean-forward="true" selection-end-line="136" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-end-line="136" />
         </state>
       </provider>
     </entry>
@@ -698,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.dev.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="330" column="19" lean-forward="true" selection-end-line="1175" />
+        <state relative-caret-position="6409">
+          <caret line="377" column="39" selection-end-line="1175" />
         </state>
       </provider>
     </entry>
@@ -710,13 +694,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="929" column="10" selection-start-line="929" selection-start-column="10" selection-end-line="929" selection-end-column="10" />
-          <folding>
-            <marker date="1564403333547" expanded="true" signature="54587:56350" ph="..." />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="54" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
         </state>
       </provider>
     </entry>

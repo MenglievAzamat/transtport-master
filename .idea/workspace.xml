@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38277e54-2831-4f03-80a0-6c9495a47bca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.dev.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/transitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/transitions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/transitions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/transitions.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,23 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+            <state relative-caret-position="287">
+              <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
               <folding>
-                <marker date="1564985723591" expanded="true" signature="54453:56216" ph="..." />
+                <marker date="1565874043232" expanded="true" signature="54407:56170" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="238">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -41,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-end-line="136" />
+            <state relative-caret-position="2312">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -50,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resize.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2290" selection-start-line="3" selection-start-column="2290" selection-end-line="3" selection-end-column="2290" />
+            <state relative-caret-position="68">
+              <caret line="4" column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -59,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.dev.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6409">
-              <caret line="377" column="39" selection-end-line="1175" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="20" lean-forward="true" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -69,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18147" selection-start-column="18147" selection-end-column="18147" />
+              <caret column="18155" selection-start-column="18155" selection-end-column="18155" />
             </state>
           </provider>
         </entry>
@@ -79,6 +85,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" column="54" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/transitions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/transitions.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="78" lean-forward="true" selection-start-column="78" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -94,9 +118,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content-service</find>
       <find>transitions</find>
-      <find>footer</find>
       <find>btn-</find>
       <find>footer p</find>
       <find>input</find>
@@ -111,7 +133,6 @@
       <find>my</find>
       <find>main-header</find>
       <find>flex</find>
-      <find>mobile-logo</find>
       <find>resize</find>
       <find>img</find>
       <find>img/mobile-logo.webp</find>
@@ -124,6 +145,9 @@
       <find>.png</find>
       <find>png</find>
       <find>picture</find>
+      <find>footer</find>
+      <find>r</find>
+      <find>mobile-logo</find>
     </findStrings>
     <replaceStrings>
       <replace>.webp</replace>
@@ -162,8 +186,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/request.php" />
         <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/js/transitions.js" />
-        <option value="$PROJECT_DIR$/js/transitions.min.js" />
         <option value="$USER_HOME$/Desktop/sitemap.xml" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -177,18 +199,19 @@
         <option value="$PROJECT_DIR$/success.php" />
         <option value="$PROJECT_DIR$/css/main.mobile.css" />
         <option value="$PROJECT_DIR$/css/main.mobile.min.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/css/main.dev.css" />
+        <option value="$PROJECT_DIR$/css/main.min.css" />
         <option value="$PROJECT_DIR$/js/resize.js" />
         <option value="$PROJECT_DIR$/js/resize.min.js" />
-        <option value="$PROJECT_DIR$/css/main.min.css" />
+        <option value="$PROJECT_DIR$/js/transitions.js" />
+        <option value="$PROJECT_DIR$/js/transitions.min.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="237" />
-    <option name="y" value="-18" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -198,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,7 +288,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,14 +303,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Azamat\Desktop\transtport-master\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Новая папка\OSPanel\domains\localhost\transtport-master\img\safari" />
       <recent name="E:\Новая папка\OSPanel\domains\localhost\transtport-master\img" />
       <recent name="E:\Новая папка\OSPanel\domains\localhost\transtport-master" />
       <recent name="C:\Users\Azamat\Desktop\transtport-master\js" />
-      <recent name="C:\Users\Azamat\Desktop\transtport-master\img" />
-      <recent name="C:\Users\Azamat\Desktop\transtport-master\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Azamat\Desktop\transtport-master\img" />
     </key>
   </component>
@@ -344,7 +367,11 @@
       <workItem from="1564312895278" duration="3307000" />
       <workItem from="1564380679880" duration="3441000" />
       <workItem from="1564985438564" duration="836000" />
-      <workItem from="1565006434016" duration="455000" />
+      <workItem from="1565006434016" duration="727000" />
+      <workItem from="1565007197994" duration="7000" />
+      <workItem from="1565007952837" duration="165000" />
+      <workItem from="1565769339210" duration="1383000" />
+      <workItem from="1566223457150" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1563110724217</created>
@@ -395,17 +422,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564425039504</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="05.08.19 Fixes">
+      <created>1565006928021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565006928021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148581000" />
+    <option name="totallyTimeSpent" value="151007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="549" y="-14" width="974" height="1047" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18052517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,7 +473,8 @@
     <MESSAGE value="24.07.19 Fixes" />
     <MESSAGE value="28.07.19 Fixes" />
     <MESSAGE value="29.07.19 Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.07.19 Fixes" />
+    <MESSAGE value="05.08.19 Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.08.19 Fixes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -562,22 +596,8 @@
     <entry file="file://$PROJECT_DIR$/img/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/transitions.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="121" selection-start-column="121" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/phone-1.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/transitions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/transitions.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,39 +678,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
           <folding>
-            <marker date="1564985723591" expanded="true" signature="54453:56216" ph="..." />
+            <marker date="1565874043232" expanded="true" signature="54407:56170" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/resize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-end-line="136" />
+        <state relative-caret-position="2312">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/resize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2290" selection-start-line="3" selection-start-column="2290" selection-end-line="3" selection-end-column="2290" />
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.dev.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6409">
-          <caret line="377" column="39" selection-end-line="1175" />
+        <state relative-caret-position="2023">
+          <caret line="119" column="20" lean-forward="true" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18147" selection-start-column="18147" selection-end-column="18147" />
+          <caret column="18155" selection-start-column="18155" selection-end-column="18155" />
         </state>
       </provider>
     </entry>
@@ -701,10 +728,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/js/transitions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state>
+          <caret column="30" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transitions.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="78" lean-forward="true" selection-start-column="78" selection-end-column="78" />
         </state>
       </provider>
     </entry>

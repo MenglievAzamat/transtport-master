@@ -134,3 +134,11 @@ $("#mbl-next").on("click", function () {
         $(".submit").css("display", "block");
     }
 });
+
+var src = "img/mobile-logo.webp";
+
+if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+    src = "img/safari/mobile-logo.jp2";
+}
+
+$('.mobile-logo img').attr("src", src);

@@ -108,7 +108,8 @@ a:active {
     text-decoration: none;
 }
 
-.row {
+.row,
+.d-flex{
     display: flex;
     display: -ms-flexbox;
     display: -webkit-box;
